@@ -81,6 +81,12 @@ du -shc ./* | sort -h
 dig +short myip.opendns.com @resolver1.opendns.com
 ```
 
+or
+
+```bash
+curl ifconfig.co
+```
+
 ## Read file without comments
 
 ```bash
