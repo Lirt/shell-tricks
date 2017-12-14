@@ -42,6 +42,7 @@ touch {1..4}/testfile
 
 ## write or append text file
 
+```bash
 cat <<_EOF_ > file.txt
 one
 
@@ -53,6 +54,7 @@ one
 
 two
 _EOF_
+```
 
 ## Sort file by column
 
